@@ -27,43 +27,47 @@
     </section>
 
     <main>
-        <section id="https://frontendsimplified.com/">
+        <section id="about">
             <h2>About</h2>
-            <div>
-                <p>Explore HTML, CSS, Javascript, etc</p>
-                <p>Explore HTML, CSS, Javascript, etc</p>
+            <div class="section__description">
+                <div class="section__description--wrapper">
+                    <p class="section__description--para">Explore HTML, CSS, Javascript, etc</p>
+                    <p class="section__description--para">Explore HTML, CSS, Javascript, etc</p>
+                </div>
+             <figure class="about__img--wrapper"><img src="./assets/about png.png"></figure> 
             </div>
-            <figure><img src="./assets/about png.png"></figure>
         </section>
 
-        <section id="https://discord.com/invite/aBx8dcu">
+        <section id="discord">
             <h2>Discord</h2>
-            <figure>
-                <img src="./assets/discord.png">
-            </figure>
-            <div>
-                <p>Connect with friends who are exploring the same path as you.</p>
+            <div class="section__description">
+             <figure>
+                <img src="./assets/discord.png" class="discordimg">
+             </figure>
+             <div>
+                <p class="section__description--para">Connect with friends who are exploring the same path as you.</p>
+             </div>
             </div>
         </section>
-        <section id="https://frontendsimplified.com/contact">
+        <section id="contact">
             <h2>Contact</h2>
-            <form action="">
+            <form action="input">
                 <label>Email</label>
-                <input type="text" placeholder="Jane@example.com">
+                <input type="email" placeholder="Jane@example.com">
                 <label>Message</label>
                 <textarea type="text" placeholder="Nice website, let's chat."></textarea>
-                <button>Submit</button>
+                <button>Contact us!</button>
             </form>
         </section>
     </main>
 
     <footer>
-        <img src="./assets/FES.png">
-        <div>
-            <a href="https://frontendsimplified.com/">About</a>
-            <a href="https://discord.com/invite/aBx8dcu">Discord</a>
-            <a href="https://frontendsimplified.com/contact">Contact</a>
-            <a href="">Courses</a>
+        <img class="footer__logo" src="./assets/FES.png">
+        <div class="footer__links">
+            <a class="footer__link" href="https://frontendsimplified.com/">About</a>
+            <a class="footer__link" href="https://discord.com/invite/aBx8dcu">Discord</a>
+            <a class="footer__link" href="https://frontendsimplified.com/contact">Contact</a>
+            <a class="footer__link" href="">Courses</a>
         </div>
         <p>Copy Right Frontend Simplified</p>
     </footer>
